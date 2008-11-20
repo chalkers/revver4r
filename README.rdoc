@@ -1,0 +1,3 @@
+== Revver4R
+
+Revver4R is a simple Ruby interface for Revver's api.
