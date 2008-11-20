@@ -8,7 +8,7 @@ Echoe.new('Revver4R', '0.1.0') do |p|
   p.author         = "Andrew Chalkley"
   p.email          = "andrew@chalkely.org"
   p.ignore_pattern = ["tmp/*", "script/*"]
-  p.development_dependencies = []
+  p.development_dependencies = ["hpricot"]
 end
 
 Dir["#{File.dirname(__FILE__)}/tasks/*.rake"].sort.each { |ext| load ext }

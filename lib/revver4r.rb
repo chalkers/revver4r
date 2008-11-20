@@ -14,15 +14,16 @@ require 'hpricot'
 #
 #== Usage Example
 #
-# Here's how to pull 10 quicktime videos with the tag ruby descening by date 
-#
-#   videos = Revver4R::VideoSearch.new("qt","tag","ruby",{"limit" => 10, "order" => "desc""})
-#   videos.search.each do |video|
-#     puts video.to_yaml
-#   end
-#
-# For more information at http://developer.revver.com/feeds/mrss
-
+# Here's how to pull 1 quicktime video with the tag ruby
+#    
+#    require 'Revver4R'
+#    video_search = Revver4R::VideoSearch.new("qt","tag","ruby",{"limit" => 1})
+#    videos = video_search.search
+#    videos.each do |video|
+#      puts video.to_yaml
+#    end
+# 
+#  For more information at http://developer.revver.com/feeds/mrss
 module Revver4R
 
   POSSIBLE_MEDIA_TYPES = ["flash", "qt"]
