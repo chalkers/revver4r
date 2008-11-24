@@ -41,7 +41,6 @@ module Revver4R
       
     attr_accessor :media, :feed_contents, :criteria
     def initialize(media="flash", feed_contents="tag", criteria="rails", options = {"affiliate" => "chalkers"})
-
       if POSSIBLE_MEDIA_TYPES.include? media
         @media = media
       else
