@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Andrew Chalkley"]
-  s.date = %q{2008-11-20}
+  s.date = %q{2008-11-24}
   s.description = %q{A simple Ruby interface for Revver's api.}
   s.email = %q{andrew@chalkely.org}
   s.extra_rdoc_files = ["CHANGELOG", "lib/revver4r.rb", "README.rdoc"]
-  s.files = ["CHANGELOG", "init.rb", "lib/revver4r.rb", "Manifest", "Rakefile", "README.rdoc", "scripts/test.rb", "Revver4R.gemspec"]
+  s.files = ["CHANGELOG", "init.rb", "lib/revver4r.rb", "Manifest", "Rakefile", "README.rdoc", "Revver4R.gemspec"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/chalkers/revver4r}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Revver4R", "--main", "README.rdoc"]

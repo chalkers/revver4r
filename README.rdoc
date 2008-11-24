@@ -4,7 +4,7 @@ Revver4R is a simple Ruby interface for Revver's api.
 
 == Install
 
-  gem install chalkers-revver4r --source http://gems.github.com
+  gem install chalkers-Revver4R --source http://gems.github.com
 
 == Usage
 Here's how to pull 1 quicktime video with the tag ruby
